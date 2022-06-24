@@ -1,0 +1,1 @@
+# msi-delta15-mysticlight-1564

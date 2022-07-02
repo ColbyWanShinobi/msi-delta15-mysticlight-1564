@@ -30,3 +30,5 @@ https://gitlab.com/CalcProgrammer1/OpenRGB/-/issues/2289#note_947399598
 https://weinimo.github.io/how-to-write-udev-rules-for-usb-devices.html
 
 https://unix.stackexchange.com/questions/39370/how-to-reload-udev-rules-without-reboot
+
+https://www.msi.com/Laptop/Delta-15-A5EX

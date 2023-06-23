@@ -1,7 +1,7 @@
 # msi-delta15-mysticlight-1564
 
 Under Conda, running Python 3.9 on Ubuntu 22.04:
-* ```pip install hid```
+* ```sudo pip install hid```
 * ```sudo apt install libhidapi-hidraw0```
 
 Make a new file: ```/etc/udev/rules.d/10-local.rules```
@@ -17,6 +17,12 @@ Save it, then run:
 then run:
 
 ```sudo udevadm test /devices/pci0000:00/0000:00:08.1/0000:07:00.3/usb1/1-4```
+
+then add this to startup:
+
+```conda run -n base /home/colby/git/personal/msi-delta15-mysticlight-1564/msi-mystic-1564.py -c FF0000```
+
+This sets the keyboard backlight to the solid color red
 
 
 Notes/Credit:
